@@ -76,4 +76,16 @@ echo "<pre>";
 print_r($cars);
 
 
+echo "<----------------------------------------------------------->";
+echo "<br>";
+echo "reverse element in array";
+echo "<br>";
+echo "<----------------------------------------------------------->";
+
+// reverse array //
+
+$reversed_array = array_reverse($cars);
+echo "<pre>";
+print_r($reversed_array);
+
 ?>
