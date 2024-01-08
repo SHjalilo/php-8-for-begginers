@@ -88,4 +88,44 @@ $reversed_array = array_reverse($cars);
 echo "<pre>";
 print_r($reversed_array);
 
+
+
+echo "<----------------------------------------------------------->";
+echo "<br>";
+echo "sum element in array";
+echo "<br>";
+echo "<----------------------------------------------------------->";
+echo "<br>";
+$total_prices = [21,44,6,87,56];
+/*echo $total_prices[0] + $total_prices[1] + $total_prices[2] + $total_prices[3] + $total_prices[4] ;*/
+
+echo array_sum($total_prices);
+echo "<pre>";
+print_r($total_prices);
+
+echo "<----------------------------------------------------------->";
+echo "<br>";
+echo "random element in array";
+echo "<br>";
+echo "<----------------------------------------------------------->";
+
+echo "<br>";
+
+$students = [
+    "ali",
+    "salah",
+    "hamza",
+    "med",
+    "ahmed",
+];
+
+$index = rand(0,count($students)-1);
+echo $students[$index];
+echo "<br>";
+
+$index = rand(0,count($students)-1);
+echo $students[$index];
+echo "<br>";
+
+
 ?>
