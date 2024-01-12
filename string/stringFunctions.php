@@ -57,6 +57,11 @@ echo "<br>";
 echo str_shuffle($mytext);
 echo "<br>";
 
+// reverse str
+
+echo strrev($mytext);
+echo "<br>";
+
 
 
 
