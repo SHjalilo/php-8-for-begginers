@@ -39,8 +39,10 @@ echo "<br>";
 echo strtolower($mytext);
 echo "<br>";
 
+// count 
 
-
+echo str_word_count($mytext);
+echo "<br>";
 
 
 
