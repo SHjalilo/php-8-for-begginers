@@ -51,4 +51,19 @@ echo "<br>";
 echo str_repeat($mytext,5);
 echo "<--------------------------------------------------------------->";
 echo "<br>";
+
+// shuffle => random 
+
+echo str_shuffle($mytext);
+echo "<br>";
+
+
+
+
+
+
+
+
+
+
 ?>
