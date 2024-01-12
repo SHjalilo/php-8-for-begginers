@@ -1,6 +1,6 @@
 <?php
 
-$mytext = "salamo alaykom everybody !";
+$mytext = "salamo alaykom everybody ! <br>";
 
 // string like array in php 
 echo $mytext[2]; // => l
@@ -44,6 +44,11 @@ echo "<br>";
 echo str_word_count($mytext);
 echo "<br>";
 
+// repeat str 
 
-
+echo "<--------------------------------------------------------------->";
+echo "<br>";
+echo str_repeat($mytext,5);
+echo "<--------------------------------------------------------------->";
+echo "<br>";
 ?>
