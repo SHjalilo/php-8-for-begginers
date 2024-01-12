@@ -34,6 +34,10 @@ echo strtoupper($mytext);
 echo "<br>";
 
 
+// lower case
+
+echo strtolower($mytext);
+echo "<br>";
 
 
 
