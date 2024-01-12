@@ -25,5 +25,19 @@ echo "<br>";
 
 $result = str_contains($mytext,"alaykom") ? "yes" : "no";
 echo "the word exists ? => : $result";
+echo "<br>";
+
+
+// upper case
+
+echo strtoupper($mytext);
+echo "<br>";
+
+
+
+
+
+
+
 
 ?>
