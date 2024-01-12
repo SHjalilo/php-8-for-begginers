@@ -62,7 +62,10 @@ echo "<br>";
 echo strrev($mytext);
 echo "<br>";
 
+// empty (true = 1)/ nothing = false
 
+echo empty($mytext); // it is false we have a content in string
+echo "<br>";
 
 
 
