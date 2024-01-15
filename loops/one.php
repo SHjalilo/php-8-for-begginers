@@ -14,13 +14,20 @@ $t = 5;
 
 while($t < 13){
 
-    echo "hello world ";
+    echo "hi there | ";
     $t++;
 }
 
 
+// do - while
 
+echo '<br>';
+$p = 15;
 
+do {
+    echo "-- hello world -- ";
+    $p++;
+}while($p < 13)
 
 
 
