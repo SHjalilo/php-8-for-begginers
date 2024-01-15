@@ -10,7 +10,22 @@ elseif($num == 0)
 else 
     echo "positive number ";
 
+// switch
 
+echo '<br>';
+
+$num2 = 9 ;
+switch ($num2){
+    case 10:
+        echo "number is 10";
+        break ;
+    case 9:
+        echo "number is 9";
+        break ;
+    default :
+        echo "not exists";
+        break ;
+}
 
 
 
