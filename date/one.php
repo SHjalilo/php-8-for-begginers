@@ -18,6 +18,12 @@ echo date('l D/M/Y');
 // write the hours
 
 echo "<br>";
-echo date('D/M/Y');
+echo date('D/M/Y h:i:s');
+
+
+// write the hours (pm/am)
+
+echo "<br>";
+echo date('D/M/Y h:i:s a');
 
 ?>
