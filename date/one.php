@@ -34,6 +34,6 @@ $date2 = date_create('2024-01-17');
 
 $diff = date_diff($date1,$date2);
 
-echo $diff->format('%a days %d | month %m');
+echo $diff->format('%a days %d | month %m | years %y');
 
 ?>
