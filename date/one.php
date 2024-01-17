@@ -26,4 +26,14 @@ echo date('D/M/Y h:i:s');
 echo "<br>";
 echo date('D/M/Y h:i:s a');
 
+// the diff between to days
+echo "<br>";
+
+$date1 = date_create('2024-01-01');
+$date2 = date_create('2024-01-17');
+
+$diff = date_diff($date1,$date2);
+
+echo $diff->format('%a days %d | month %m');
+
 ?>
