@@ -27,4 +27,13 @@ class Employees extends Person{
     public function setPost($post){
         $this->post = $post;
     }
+
+    public function getPrime(){
+        $salary = $this->salary / 3;
+        return round($salary,2);
+    }
+
+    public function totalSalary(){
+        return $this->salary + $this->getPrime();
+    }
 }
