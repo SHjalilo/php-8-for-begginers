@@ -57,8 +57,8 @@
                     </td>
                     <td>
                             <form action="post" class=" d-flex align-items-center justify-content-evenly">
-                                <input class="btn btn-primary " type="submit" value="Update">
-                                <input class="btn btn-danger "  type="submit" value="Delete">
+                                <a href="update.php" class="btn btn-primary ">Update</a>
+                                <a href="delete.php?id=<?= $em['PersonID']?>" onclick="return confirm('Do you want to delete : <?php echo $em['FirstName'] ?> ?');" class="btn btn-danger ">Delete</a>
                             </form>
                     </td>
                     <td>
